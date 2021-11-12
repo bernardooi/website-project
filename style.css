@@ -1,0 +1,20 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-color: #FFBF00;
+    width: 100vw;
+    height: 10vh;
+}
+
+#underHeader
+{
+    height: 5vh;
+    width: 100vw;
+    background-color: navy;
+}
+
