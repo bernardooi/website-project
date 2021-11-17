@@ -35,14 +35,12 @@ footer
 }
 
 
-#ad1s
+#ad1
 {
-   width:13%;
-   height:auto;
-   margin-left:0.5%;
-   margin-right:0.5%;
-   margin-top:0.5%;
-   border-color:black;
-   border-style:solid;
-   border-width:0.5%;
+    width:13%;
+    margin: 0.5%;
+    height: auto;
+    border-color:black;
+    border-style: solid;
+    border-width: 0.5%;
 }
