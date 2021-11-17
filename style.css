@@ -11,14 +11,35 @@ header
     height: 100px;
 }
 
-.navbtn
-{
-
+#logo{
     height: 90px;
-    width: 140px;
-    border: 5px solid black;
+    padding: 5px;
+    width: auto;
     float: left;
 }
+
+.navbtn
+{
+    height: 50px;
+    width: 150px;
+    border: 5px solid black;
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.navbtn:hover{
+    background-color: blue;
+}
+
+#searchbar{
+    height: 90px;
+    width: 250px;
+    border: 5px solid black;
+    margin-left: 50px;
+    float: left;
+}
+
 footer
 {
     width: 70%;
