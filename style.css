@@ -14,11 +14,17 @@ header
 .navbtn
 {
     height: 90px;
-    width: 90px;
+    width: 140px;
     border: 5px solid black;
     float: left;
 }
 
+#ad{
+    background-color: #FFBF00;
+    height: 10px;
+    width: 13%;
+    margin: 1%;
+}
 
 #crack
 {
