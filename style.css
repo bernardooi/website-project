@@ -130,7 +130,7 @@ footer
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #242f3f;
+    background-color: #FFBF00;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -140,14 +140,14 @@ footer
     width: 30px;
     height: 30px;
     position: relative;
-    border: 4px solid #Fff;
+    border: 4px solid black;
     animation: loader 2s infinite ease;
   }
   .loader-inner {
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    background-color: #fff;
+    background-color: black;
     animation: loader-inner 2s infinite ease-in;
   }
   @keyframes loader {
