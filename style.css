@@ -22,9 +22,10 @@ header
 footer
 {
     width: 70%;
-    height: 200px;
+    height: 250px;
     background-color: #FFBF00;
-    margin-top: 637px;
+    margin-left:15%;
+    
 }
 
 #ad1s
@@ -35,4 +36,5 @@ footer
    border-color:black;
    border-style:solid;
    border-width:0.5%;
+   display:inline;
 }
