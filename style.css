@@ -12,16 +12,22 @@ header
 }
 
 #logo{
+    background-color: #FFBF00;
     height: 90px;
     padding: 5px;
     width: auto;
     float: left;
 }
 
+#navcon{
+width: 50%;
+float: left;
+}
+
 .navbtn
 {
     height: 50px;
-    width: 150px;
+    width: 15%;
     border: 5px solid black;
     float: left;
     text-align: center;
@@ -34,9 +40,8 @@ header
 
 #searchbar{
     height: 90px;
-    width: 250px;
+    width: 35%;
     border: 5px solid black;
-    margin-left: 50px;
     float: left;
 }
 
@@ -64,4 +69,51 @@ footer
     border-color:black;
     border-style: solid;
     border-width: 0.5%;
+}
+
+#gamebar{
+    background-color: sandybrown;
+    text-align: center;
+    width: 90%;
+    height: 20px;
+    margin: 5%;
+}
+
+
+/* Game previews */
+.prename, .prescore, .preimg, .presynopsis{
+    border: solid black 2.5px;
+}
+
+.preview{
+    margin: 10px;
+    width: 400px;
+    height: 230px;
+}
+
+.preimg{
+    height: 225px;
+    width: 150px;
+}
+
+.prescore{
+    background-color: seagreen;
+    float: right;
+    height: 50px;
+    width: 50px;
+}
+
+.prename{
+    background-color: slateblue;
+    float: right;
+    height: 50px;
+    width: 185px;
+}
+
+.presynopsis{
+    background-color: tomato;
+    width: 240px;
+    height: 171px;
+    margin-left: 155px;
+    margin-top: -180px;
 }
