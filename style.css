@@ -88,12 +88,13 @@ float: right;
 }
 
 .prename{
-    background-color: slateblue;
+    background-color: black;
     float: right;
     height: 50px;
     width: 185px;
     font-size: 150%;
     text-align: center;
+    color:white;
 }
 
 .presynopsis{
