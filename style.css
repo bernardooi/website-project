@@ -26,12 +26,12 @@ header
     float: right;
     text-align: center;
     padding-top: 40px;
+    font-size: 200%;
 }
 
 .navbtn:hover{
     background-color: blue;
 }
-
 #adleft, #adright
 {
     width:13%;
@@ -149,7 +149,6 @@ float: right;
 .mediaicons{
     width: 100px;
     height: 100px;
-    border: steelblue solid 1px;
 }
 
 #kenjifooter{
