@@ -32,6 +32,9 @@ header
 .navbtn:hover{
     background-color: blue;
 }
+#adleft{
+    float: left;
+}
 #adleft, #adright
 {
     width:13%;
@@ -65,7 +68,7 @@ float: right;
     margin: 10px;
     width: 400px;
     height: 230px;
-    
+    float:left;
 }
 
 .preimg{
@@ -159,6 +162,7 @@ float: right;
     width: 70%;
     height: 250px;
     margin-left:15%;
+    float:left;
 }
 
 .center{
