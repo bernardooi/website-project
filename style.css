@@ -32,15 +32,9 @@ header
 .navbtn:hover{
     background-color: blue;
 }
-
-
-
-
 #adleft{
     float: left;
 }
-
-
 #adleft, #adright
 {
     width:13%;
@@ -80,6 +74,7 @@ float: right;
 .preimg{
     height: 225px;
     width: 150px;
+    
 }
 
 .prescore{
@@ -161,6 +156,7 @@ float: right;
 .mediaicons{
     width: 100px;
     height: 100px;
+    
 }
 
 #kenjifooter{
