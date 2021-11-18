@@ -1,4 +1,4 @@
-`*
+*
 {
     margin: 0;
     padding: 0;
@@ -19,9 +19,7 @@ header
     float: left;
 }
 
-
-.navbtn
-{
+.navbtn{
     height: 50px;
     width: 15%;
     border: 5px solid black;
@@ -33,17 +31,6 @@ header
 .navbtn:hover{
     background-color: blue;
 }
-
-
-#bernardfooter
-{
-    width: 70%;
-    height: 250px;
-    background-color: #FFBF00;
-    margin-left:15%;
-
-}
-
 
 #adleft, #adright
 {
