@@ -98,6 +98,8 @@ float: right;
     float: right;
     height: 50px;
     width: 185px;
+    font-size: 150%;
+    text-align: center;
 }
 
 .presynopsis{
@@ -108,13 +110,14 @@ float: right;
     margin-top: -180px;
 }
 /*/
+
 .loader-wrapper {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #242f3f;
+    background-color: #FFBF00;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -124,14 +127,14 @@ float: right;
     width: 30px;
     height: 30px;
     position: relative;
-    border: 4px solid #Fff;
+    border: 4px solid black;
     animation: loader 2s infinite ease;
   }
   .loader-inner {
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    background-color: #fff;
+    background-color: black;
     animation: loader-inner 2s infinite ease-in;
   }
   @keyframes loader {
@@ -147,4 +150,21 @@ float: right;
     50% { height: 100%;}
     75% { height: 100%;}
     100% { height: 0%;}
-  }/*/
+  }
+  
+  /*/
+
+
+.pretitle{
+    padding-top: 10px;
+}
+#footer1{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+#footer2{
+    width: 100%;
+    height: 80px;
+    background-color: purple;
+}
