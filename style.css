@@ -65,6 +65,7 @@ float: right;
     margin: 10px;
     width: 400px;
     height: 230px;
+    
 }
 
 .preimg{
@@ -145,7 +146,7 @@ float: right;
   }
 
 #mediarow{
-    background-color: turquoise;
+    background-color: #FFBF00;
     padding-top: 75px;  
 }
 .mediaicons{
@@ -154,7 +155,7 @@ float: right;
 }
 
 #kenjifooter{
-    background-color: tomato;
+    background-color:#FFBF00;
     width: 70%;
     height: 250px;
     margin-left:15%;
