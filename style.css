@@ -116,8 +116,7 @@ float: right;
 
 
 
-
-.loader-wrapper {
+.loader-wrapper { /*Loading screen*/
     width: 100%;
     height: 100%;
     position: absolute;
