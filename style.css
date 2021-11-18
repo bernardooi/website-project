@@ -1,4 +1,4 @@
-*
+`*
 {
     margin: 0;
     padding: 0;
@@ -69,7 +69,6 @@ float: right;
     margin: 5%;
 }
 
-
 /* Game previews */
 .prename, .prescore, .preimg, .presynopsis{
     border: solid black 2.5px;
@@ -114,9 +113,6 @@ float: right;
     padding-top: 10px;
 }
 
-
-
-
 .loader-wrapper {
     width: 100%;
     height: 100%;
@@ -157,9 +153,6 @@ float: right;
     75% { height: 100%;}
     100% { height: 0%;}
   }
-  
-  
-
 
 #mediarow{
     background-color: turquoise;
@@ -168,6 +161,7 @@ float: right;
 .mediaicons{
     width: 100px;
     height: 100px;
+    border: steelblue solid 1px;
 }
 
 #kenjifooter{
@@ -177,10 +171,8 @@ float: right;
     margin-left:15%;
 }
 
-.center {
+.center{
     margin: auto;
-    width: 50%;
-    border: 3px solid green;
+    width: 310px;
     padding: 10px;
   }
-
