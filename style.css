@@ -19,30 +19,19 @@ header
     float: left;
 }
 
-#navcon{
-width: 50%;
-float: left;
-}
 
 .navbtn
 {
     height: 50px;
     width: 15%;
     border: 5px solid black;
-    float: left;
+    float: right;
     text-align: center;
     padding-top: 40px;
 }
 
 .navbtn:hover{
     background-color: blue;
-}
-
-#searchbar{
-    height: 90px;
-    width: 35%;
-    border: 5px solid black;
-    float: left;
 }
 
 
@@ -56,15 +45,7 @@ footer
 }
 
 
-#ad{
-    background-color: #FFBF00;
-    height: 10px;
-    width: 13%;
-    margin: 1%;
-}
-
-
-#ad1
+#adleft, #adright
 {
     width:13%;
     margin: 0.5%;
@@ -72,6 +53,12 @@ footer
     border-color:black;
     border-style: solid;
     border-width: 0.5%;
+}
+
+#adright
+{
+float: right;
+
 }
 
 #gamebar{
@@ -120,7 +107,7 @@ footer
     margin-left: 155px;
     margin-top: -180px;
 }
-
+/*/
 .loader-wrapper {
     width: 100%;
     height: 100%;
@@ -160,4 +147,4 @@ footer
     50% { height: 100%;}
     75% { height: 100%;}
     100% { height: 0%;}
-  }
+  }/*/
