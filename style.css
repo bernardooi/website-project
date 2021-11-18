@@ -53,10 +53,11 @@ float: right;
 
 #gamebar{
     background-color: sandybrown;
+    border: black solid 2.5px;
     text-align: center;
-    width: 90%;
+    width: 70%;
     height: 20px;
-    margin: 5%;
+    margin: 10px 15% 10px 15%;
 }
 
 /* Game previews */
@@ -171,4 +172,29 @@ float: right;
     margin: auto;
     width: 310px;
     padding: 10px;
-  }
+}
+
+#slideshow{
+    width: 70%;
+    height: 50vh;
+    margin: 7.5px 0 0 15%;
+    background-color: steelblue;
+    border: black solid 2.5px;
+}
+
+#featuredimg{
+
+}
+
+#featuredtext{
+
+}
+
+#leftbtn{
+
+}
+
+#rightbtn{
+
+}
+
