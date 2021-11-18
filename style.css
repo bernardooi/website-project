@@ -109,7 +109,6 @@ float: right;
     margin-left: 155px;
     margin-top: -180px;
 }
-/*/
 
 .loader-wrapper {
     width: 100%;
@@ -152,7 +151,7 @@ float: right;
     100% { height: 0%;}
   }
   
-  /*/
+  
 
 
 .pretitle{
@@ -167,4 +166,10 @@ float: right;
     width: 100%;
     height: 80px;
     background-color: purple;
+}
+
+.icons{
+    width:10%;
+    height: 10%;
+    background-color: blues;
 }
