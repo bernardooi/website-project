@@ -75,7 +75,8 @@ float: right;
 
 .preview{
     margin:10px;
-    width: 31%;
+    margin-left: 7%;
+    width: 40%;
     height: 230px;
     float:left;
 }
