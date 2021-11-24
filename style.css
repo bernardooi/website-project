@@ -82,16 +82,16 @@ float: right;
 }
 
 .preimg{
-    height: 230px;
-    width: 150px;
+    height: 24.625vh;
+    width: 7.8vw;
     float: left;
 }
 
 .prescore{
     background-color: seagreen;
     float: left;
-    height: 50px;
-    width: 50px;
+    height: 5.5vh;
+    width: 2.6vw;
     font-size: 250%;
     text-align: center;
 }
@@ -99,8 +99,8 @@ float: right;
 .prename{
     background-color: black;
     float: left;
-    height: 50px;
-    width: 185px;
+    height:5.5vh;
+    width: 9.625vw;
     font-size: 150%;
     text-align: center;
     color:white;
@@ -108,8 +108,8 @@ float: right;
 
 .presynopsis{
     background-color: #FFBF00;
-    width: 240px;
-    height: 171px;
+    width: 12.5vw;
+    height: 18.625vh;
     float: left;
     margin-left: 155px;
     margin-top: -180px;
