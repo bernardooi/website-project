@@ -27,6 +27,7 @@ header
     text-align: center;
     padding-top: 40px;
     font-size: 200%;
+    cursor: pointer;
 }
 
 .navbtn:hover{
@@ -65,22 +66,29 @@ float: right;
     border: solid black 2.5px;
 }
 
+#reviewcontainer{
+    width: 70%;
+    height: 80vh;
+    background-color: red;
+    margin:0 auto;
+}
+
 .preview{
     margin: 10px;
-    width: 400px;
+    width: 31%;
     height: 230px;
     float:left;
 }
 
 .preimg{
-    height: 225px;
+    height: 230px;
     width: 150px;
-    
+    float: left;
 }
 
 .prescore{
     background-color: seagreen;
-    float: right;
+    float: left;
     height: 50px;
     width: 50px;
     font-size: 250%;
@@ -89,7 +97,7 @@ float: right;
 
 .prename{
     background-color: black;
-    float: right;
+    float: left;
     height: 50px;
     width: 185px;
     font-size: 150%;
@@ -103,8 +111,8 @@ float: right;
     height: 171px;
     margin-left: 155px;
     margin-top: -180px;
+    float: left;
 }
-
 .pretitle{
     padding-top: 10px;
 }
@@ -212,6 +220,7 @@ float: right;
 
 .featbtn:hover{
     background-color: burlywood;
+    cursor: pointer;
 }
 
 #leftbtn{
@@ -221,4 +230,9 @@ float: right;
 #rightbtn{
 
 }
-
+#footertext{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-size: 150%;
+}
