@@ -66,15 +66,15 @@ float: right;
     border: solid black 2.5px;
 }
 
-#reviewcontainer{
+#reviewcontainer{   
     width: 70%;
-    height: 80vh;
+    height: 80em;
     background-color: red;
     margin:0 auto;
 }
 
 .preview{
-    margin: 10px;
+    margin:10px;
     width: 31%;
     height: 230px;
     float:left;
@@ -109,9 +109,9 @@ float: right;
     background-color: #FFBF00;
     width: 240px;
     height: 171px;
+    float: left;
     margin-left: 155px;
     margin-top: -180px;
-    float: left;
 }
 .pretitle{
     padding-top: 10px;
