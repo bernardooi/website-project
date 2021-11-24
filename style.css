@@ -27,6 +27,7 @@ header
     text-align: center;
     padding-top: 40px;
     font-size: 200%;
+    cursor: pointer;
 }
 
 .navbtn:hover{
@@ -212,6 +213,7 @@ float: right;
 
 .featbtn:hover{
     background-color: burlywood;
+    cursor: pointer;
 }
 
 #leftbtn{
@@ -222,3 +224,7 @@ float: right;
 
 }
 
+#pre1{
+    cursor: pointer;
+
+}
