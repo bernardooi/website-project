@@ -4,6 +4,8 @@ $(window).on("load",function(){
 });
 
 
+var save = 2;
+console.log(save);
 
 var images = [
     "Minecraft_cover.png",
@@ -14,8 +16,8 @@ var images = [
 $("preimg").addEventListener("click", gamesiteload)
 
 
-function gamesiteload(i) {
-    document.getElementById("pageimg").src = images[i];
+function gamesiteload() {
+    document.getElementById("pageimg").src = images[save];
     document.getElementById("pagetitle").style.visibility='visible';
     document.getElementById("pagescore").style.visibility='visible';
     document.getElementById("pagesynopsis").style.visibility='visible';

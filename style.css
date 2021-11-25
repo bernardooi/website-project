@@ -21,7 +21,7 @@ header
 
 .navbtn{
     height: 50px;
-    width: 15%;
+    width: 10%;
     border: 5px solid black;
     float: right;
     text-align: center;
@@ -68,7 +68,7 @@ float: right;
 
 #reviewcontainer{   
     width: 70%;
-    height: 80em;
+    height: 120em;
     background-color: red;
     margin:0 auto;
 }
@@ -77,31 +77,31 @@ float: right;
     margin:10px;
     margin-left: 6%;
     width: 40%;
-    height: 20%;
+    height: 250px;
     float:left;
     background-color: green;
 }
 
 .preimg{
     height: 100%;
-    width: auto;
+    width: 40%;
     float: left;
 }
 
 .prescore{
     background-color: seagreen;
     float: left;
-    height: 5.5vh;
-    width: 2.6vw;
+    height: 50px;
+    width: 50px;
     font-size: 250%;
     text-align: center;
 }
 
 .prename{
-    background-color: black;
+    background-color: yellowgreen;
     float: left;
-    height:5.5vh;
-    width: 9.625vw;
+    height: 50px;
+    width:44.65%;
     font-size: 150%;
     text-align: center;
     color:white;
@@ -109,7 +109,7 @@ float: right;
 
 .presynopsis{
     background-color: #FFBF00;
-    width: 12.5vw;
+    width: 55%;
     height: 18.625vh;
     float: left;
 }
@@ -207,9 +207,6 @@ float: right;
     height: 100%;
 }
 
-#featuredtext{
-
-}
 
 .featbtn{
     height: 100%;
@@ -223,13 +220,6 @@ float: right;
     cursor: pointer;
 }
 
-#leftbtn{
-
-}
-
-#rightbtn{
-
-}
 
 #pre1{
     cursor: pointer;
