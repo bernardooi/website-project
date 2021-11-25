@@ -49,6 +49,6 @@ function changePic(){
         }
     }
 
-    document.$("#featuredimg")[0].src = BildGalleri[i];
+    document.$("#featuredimg")[1].src = BildGalleri[i];
 
 }
