@@ -15,10 +15,10 @@ $("preimg").addEventListener("click", gamesiteload)
 
 
 function gamesiteload(i) {
-    document.getElementById("#pageimg").src = images[i];
-    document.getElementById("#pagetitle").style.visibility='visible';
-    document.getElementById("#pagescore").style.visibility='visible';
-    document.getElementById("#pagesynopsis").style.visibility='visible';
+    document.getElementById("pageimg").src = images[i];
+    document.getElementById("pagetitle").style.visibility='visible';
+    document.getElementById("pagescore").style.visibility='visible';
+    document.getElementById("pagesynopsis").style.visibility='visible';
 
 }
 
