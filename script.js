@@ -10,12 +10,20 @@ console.log(save);
 var i=0;
 
 var images = [
-
     "Images/Minecraft_cover.png",
     "Images/sekiro.png",
+    "Images/smite.jpg",
+    "Images/dssouls.jpg",
+    "Images/starwars.jpg",
     "Images/batman.jpg",
-    ""
+    "Images/league.jpg",
+    "Images/age.webp",
+    "Images/eu4.jfif"
 ];
+
+var names 
+
+
 console.log(i);
 
 document.getElementById("pageimg").src = images[0];
