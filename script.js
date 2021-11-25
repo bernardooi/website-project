@@ -10,26 +10,26 @@ console.log(save);
 var i=0;
 
 var images = [
-    "Minecraft_cover.png",
-    "sekiro.png",
-    "smite.jpg",
 
-
+    "Images/Minecraft_cover.png",
+    "Images/sekiro.png",
+    "Images/batman.jpg",
+    ""
 ];
 console.log(i);
 
+document.getElementById("pageimg").src = images[0];
 
-function gamesiteload() {
-    document.getElementById("pageimg").src = images[save];
+
+
+function gamesiteload(){
+    document.getElementById("pageimg").src = images[i];
+
     document.getElementById("pagetitle").style.visibility='visible';
     document.getElementById("pagescore").style.visibility='visible';
     document.getElementById("pagesynopsis").style.visibility='visible';
+    }
 
-}
-
-
-
-document.getElementsByClassName("preimg").addEventListener("click", gamesiteload)
 
 var BildGalleri = ["frame_0_delay-0.1s.gif", "frame_1_delay-0.1s.gif", "frame_2_delay-0.1s.gif", "frame_3_delay-0.1s.gif", "frame_4_delay-0.1s.gif", "frame_5_delay-0.1s.gif"];
 
