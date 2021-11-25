@@ -25,8 +25,9 @@ header
     border: 5px solid black;
     float: right;
     text-align: center;
-    padding-top: 40px;
-    font-size: 200%;
+    padding-top: 30px;
+    padding-bottom:10px;
+    font-size: 170%;
     cursor: pointer;
 }
 
@@ -166,7 +167,6 @@ float: right;
 .mediaicons{
     width: 100px;
     height: 100px;
-    
 }
 
 #kenjifooter{

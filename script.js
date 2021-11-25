@@ -7,13 +7,14 @@ $(window).on("load",function(){
 var save = 2;
 console.log(save);
 
+var i=0;
+
 var images = [
     "Minecraft_cover.png",
     "sekiro.png",
     "batman.jpg"
 ];
-
-$("preimg").addEventListener("click", gamesiteload)
+console.log(i);
 
 
 function gamesiteload() {
@@ -26,11 +27,11 @@ function gamesiteload() {
 
 
 
+document.getElementsByClassName("preimg").addEventListener("click", gamesiteload)
+
 var BildGalleri = ["frame_0_delay-0.1s.gif", "frame_1_delay-0.1s.gif", "frame_2_delay-0.1s.gif", "frame_3_delay-0.1s.gif", "frame_4_delay-0.1s.gif", "frame_5_delay-0.1s.gif"];
 
 document.addEventListener("keydown", changePic)
-
-var i=0;
 
 function changePic(){
     if(event.key == "ArrowLeft"){
@@ -51,6 +52,7 @@ function changePic(){
         }
     }
 
-    document.$("#featuredimg")[1].src = BildGalleri[i];
+
+    document.getElementById("featuredimg")[0].src = BildGalleri[i];
 
 }
