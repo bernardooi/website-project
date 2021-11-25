@@ -61,7 +61,6 @@ document.getElementById("pageimg").src = images[0];
 
 function gamesiteload(){
     document.getElementById("pageimg").src = images[i];
-
     document.getElementById("pagetitle").style.visibility='visible';
     document.getElementById("pagescore").style.visibility='visible';
     document.getElementById("pagesynopsis").style.visibility='visible';
