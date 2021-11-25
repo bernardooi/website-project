@@ -76,10 +76,10 @@ float: right;
 
 .preview{
     margin:10px;
-    margin-left: 6%;
-    width: 40%;
+    margin-left: 3%;
+    width: 45%;
     height: 250px;
-    float:left;
+        float:left;
     background-color: green;
 }
 
@@ -93,7 +93,7 @@ float: right;
     background-color: seagreen;
     float: left;
     height: 50px;
-    width: 50px;
+    width: 5%;
     font-size: 250%;
     text-align: center;
 }
