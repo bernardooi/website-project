@@ -63,14 +63,15 @@ float: right;
 }
 
 /* Game previews */
+/*
 .prename, .prescore, .preimg, .presynopsis{
     border: solid black 2.5px;
 }
-
+*/
 #reviewcontainer{   
     width: 70%;
     height: 90em;
-    background-color: red;
+    background-color: gray;
     margin:0 auto;
 }
 
@@ -93,7 +94,7 @@ float: right;
     background-color: seagreen;
     float: left;
     height: 50px;
-    width: 5%;
+    width: 10%;
     font-size: 250%;
     text-align: center;
 }
@@ -102,7 +103,7 @@ float: right;
     background-color: yellowgreen;
     float: left;
     height: 50px;
-    width:44.65%;
+    width:50%;
     font-size: 150%;
     text-align: center;
     color:white;
@@ -110,8 +111,8 @@ float: right;
 
 .presynopsis{
     background-color: #FFBF00;
-    width: 55%;
-    height: 18.625vh;
+    width: 60%;
+    height: 100%;
     float: left;
 }
 .pretitle{

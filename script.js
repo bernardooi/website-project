@@ -1,13 +1,15 @@
 
+//Loading screen
+
 $(window).on("load",function(){
     $(".loader-wrapper").fadeOut("slow");
 });
 
 
+//Array game page system
+
 var save = 2;
 console.log(save);
-
-var i=0;
 
 var images = [
     "Images/Minecraft_cover.png",
@@ -27,10 +29,29 @@ var names = [
     "Smite",
     "Dark Souls Remastered",
     "Star Wars Jedi Fallen Order",
-    
-
+    "Batman: Arkham Knight",
+    "League of Legends",
+    "Age of Empires IV",
+    "Europa Universalis IV"
 ];
 
+var score = [
+    midscore1,
+    midscore2,
+    midscore3,
+    midscore4,
+    midscore5,
+    midscore6,
+    midscore7,
+    midscore8,
+    midscore9
+]
+
+
+
+//Slideshow
+
+var i=0;
 
 console.log(i);
 
