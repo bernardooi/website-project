@@ -75,10 +75,11 @@ float: right;
 
 .preview{
     margin:10px;
-    margin-left: 7%;
+    margin-left: 6%;
     width: 40%;
-    height: 230px;
+    height: 20%;
     float:left;
+    background-color:green;
 }
 
 .preimg{
@@ -111,8 +112,6 @@ float: right;
     width: 12.5vw;
     height: 18.625vh;
     float: left;
-    margin-left: 155px;
-    margin-top: -180px;
 }
 .pretitle{
     padding-top: 10px;
