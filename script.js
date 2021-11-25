@@ -21,7 +21,15 @@ var images = [
     "Images/eu4.jfif"
 ];
 
-var names 
+var names = [
+    "Minecraft",
+    "Sekiro: Shadows Die Twice",
+    "Smite",
+    "Dark Souls Remastered",
+    "Star Wars Jedi Fallen Order",
+    
+
+];
 
 
 console.log(i);
