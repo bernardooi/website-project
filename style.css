@@ -232,3 +232,28 @@ float: right;
     font-size: 150%;
 }
 
+
+
+@media screen {
+    
+}
+#pageimg{
+width: 20%;
+height: 20%;
+}
+#pagetitle{
+
+}
+#pagescore{
+
+}
+#pagesynopsis{
+
+}
+#reviewdiv{
+    width: 70%;
+    height: 70%;
+    background-color: red;
+    float:left;
+    margin-top: 1%;
+}
