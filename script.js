@@ -12,7 +12,9 @@ var i=0;
 var images = [
     "Minecraft_cover.png",
     "sekiro.png",
-    "batman.jpg"
+    "smite.jpg",
+
+
 ];
 console.log(i);
 
