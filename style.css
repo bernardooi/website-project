@@ -34,10 +34,10 @@ header
 .navbtn:hover{
     background-color: blue;
 }
-#adleft{
+.adleft{
     float: left;
 }
-#adleft, #adright
+.adleft, .adright
 {
     width:13%;
     margin: 0.5%;
@@ -47,7 +47,7 @@ header
     border-width: 0.5%;
 }
 
-#adright
+.adright
 {
 float: right;
 
@@ -258,4 +258,25 @@ height: 100%;
     float:left;
     margin-top: 0.5%;
     margin-left:0.5%;
+}
+#maininfo
+{
+padding:5%;
+height:20em;
+border:black solid 4px;
+background-color:#FFBF00;
+margin-top:10%;
+margin-left:14.6%;
+margin-right:10%;
+width:60%;
+}
+#headinfo
+{
+margin-left:45%;
+margin-bottom:-5%;
+margin-top:2%;
+}
+#breadinfo
+{
+font-size:x-large;
 }
