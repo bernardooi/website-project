@@ -11,7 +11,7 @@ header
     height: 100px;
 }
 
-#logo{
+.logo{
     background-color: #FFBF00;
     height: 90px;
     padding: 5px;
