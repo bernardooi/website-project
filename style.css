@@ -243,19 +243,29 @@ float: right;
 #pageimg{
 width: 30%;
 height: 100%;
+float: left;
 }
 #pagetitle{
-
+width: 70%;
+height: 20%;
+background-color: orange;
+float:left;
 }
 #pagescore{
-
+    width: 10%;
+    height: 20%;
+    background-color: green;
+    float:left;
 }
 #pagesynopsis{
-
+    width:60%;
+    height: 20%;
+    background-color: purple;
+    float:left;
 }
 #reviewdiv{
     width: 70%;
-    height: 55vh;
+    height: 65vh;
     background-color: red;
     float:left;
     margin-top: 0.5%;
