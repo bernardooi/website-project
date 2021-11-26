@@ -29,6 +29,8 @@ header
     padding-bottom:10px;
     font-size: 170%;
     cursor: pointer;
+    text-decoration: none;
+    color:black;
 }
 
 .navbtn:hover{
