@@ -36,17 +36,8 @@ var names = [
 ];
 
 var score = [
-    midscore1,
-    midscore2,
-    midscore3,
-    midscore4,
-    midscore5,
-    midscore6,
-    midscore7,
-    midscore8,
-    midscore9
-]
 
+]
 
 
 //Slideshow
@@ -91,6 +82,6 @@ function changePic(){
     }
 
 
-    document.getElementById("featuredimg")[0].src = BildGalleri[i];
+    //document.getElementById("featuredimg")[0].src = BildGalleri[i];
 
 }
