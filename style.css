@@ -12,12 +12,22 @@
     float: left;
 }
 
+/* Reklam */
+
 .reklam{
-    background-color: white;
+    background-color: lightgray;
     width: 14.4vw;
     height: 230vh;
     float: left;
 }
+
+.adimg{
+    margin: 0.2vw 0.2vw;
+    width: 14vw;
+    height: 50vw;
+}
+
+/* Header */
 
 header{
     background-color: #FFBF00;
@@ -35,14 +45,21 @@ header{
     width: 10vw;
     height: 5vw;
     float: right;
-    border: 1px solid black;
 }
+
+.navbtn:hover{
+    background-color: lightseagreen;
+}
+
+/* Slideshow */
 
 #featured{
     background-color: purple;
     width: 70vw;
     height: 30vw;
 }
+
+/* Game Section */
 
 #gamebar{
     background-color: #FFBF00;
@@ -84,11 +101,25 @@ header{
     height: 5vw;
 }
 
+.gamepara{
+    font-size: 2vw;
+    margin-top: 1vw;
+    text-align: center;
+}
+
 .gamesynopsis{
     background-color: cadetblue;
     width: 17.5vw;
     height: 10vw;
 }
+
+.synopsispara{
+    padding: 0.25vw;
+    font-size: 1vw;
+    text-align: justify;
+}
+
+/* Footer */
 
 footer{
     background-color:#FFBF00;
@@ -97,7 +128,6 @@ footer{
 }
 
 .footicons{
-    background-color: cadetblue;
     width: 5vw;
     height: 5vw;
 }
@@ -106,7 +136,10 @@ footer{
     padding: 7.5vw 0 0 27.5vw;
 }
 
-
+#footerText{
+    text-align: center;
+    font-size: 1vw;
+}
 
 
 
