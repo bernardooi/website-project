@@ -4,7 +4,116 @@
     padding: 0;
 }
 
-header
+
+#subbody{
+    background-color: red;
+    width: 70vw;
+    height: 200vh;
+    float: left;
+}
+
+.reklam{
+    background-color: white;
+    width: 14.4vw;
+    height: 230vh;
+    float: left;
+}
+
+header{
+    background-color: #FFBF00;
+    width: 70vw;
+    height: 5vw;
+}
+
+#ccglogo{
+    width: 35vw;
+    height: 5vw;
+}
+
+.navbtn{
+    background-color: salmon;
+    width: 10vw;
+    height: 5vw;
+    float: right;
+    border: 1px solid black;
+}
+
+#featured{
+    background-color: purple;
+    width: 70vw;
+    height: 30vw;
+}
+
+#gamebar{
+    background-color: #FFBF00;
+    text-align: center;
+    padding: 0.5vw 0 0.5vw 0;
+}
+
+#gamecon{
+    background-color: navy;
+    width: 70vw;
+    height: 55vw;
+}
+
+.game, .gameimg, .gamescore, .gamename, .gamesynopsis{
+    float: left;
+}
+
+.game{
+    background-color: #FFFFED;
+    width: 27.5vw;
+    height: 15vw;
+    margin: 5vw 0 0 5vw;
+}
+
+.gameimg{
+    width: 10vw;
+    height: 15vw;
+}
+
+.gamescore{
+    background-color: brown;
+    width: 5vw;
+    height: 5vw;
+}
+
+.gamename{
+    background-color: orange;
+    width: 12.5vw;
+    height: 5vw;
+}
+
+.gamesynopsis{
+    background-color: cadetblue;
+    width: 17.5vw;
+    height: 10vw;
+}
+
+footer{
+    background-color:#FFBF00;
+    width: 70vw;
+    height: 20vw;
+}
+
+.footicons{
+    background-color: cadetblue;
+    width: 5vw;
+    height: 5vw;
+}
+
+#footcenter{
+    padding: 7.5vw 0 0 27.5vw;
+}
+
+
+
+
+
+
+
+
+/* header
 {
     background-color: #FFBF00;
     width: 100%;
@@ -64,12 +173,12 @@ float: right;
     margin: 10px 15% 10px 15%;
 }
 
-/* Game previews */
-/*
+Game previews
+
 .prename, .prescore, .preimg, .presynopsis{
     border: solid black 2.5px;
 }
-*/
+
 #reviewcontainer{   
     width: 70%;
     height: 90em;
@@ -121,7 +230,7 @@ float: right;
     padding-top: 10px;
 }
 
-.loader-wrapper { /*Loading screen*/
+.loader-wrapper { /*Loading screen
 
     width: 100%;
     height: 100%;
@@ -188,7 +297,7 @@ float: right;
 
 
 
-/* slideshow */
+/* slideshow 
 
 #slideshow{
     width: 70%;
@@ -291,4 +400,4 @@ margin-top:2%;
 #breadinfo
 {
 font-size:x-large;
-}
+} */
