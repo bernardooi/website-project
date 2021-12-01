@@ -47,8 +47,15 @@ header{
     float: right;
 }
 
+.navbtnpara{
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 2vw;
+}
+
 .navbtn:hover{
     background-color: lightseagreen;
+    font-weight: bolder;
 }
 
 /* Slideshow */
