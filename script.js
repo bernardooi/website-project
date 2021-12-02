@@ -1,10 +1,8 @@
-
 //Loading screen
 
 $(window).on("load",function(){
     $(".loader-wrapper").fadeOut("slow");
 });
-
 
 //Array game page system
 
@@ -35,10 +33,7 @@ var names = [
     "Europa Universalis IV"
 ];
 
-var score = [
-
-]
-
+var score = []
 
 //Slideshow
 
@@ -47,7 +42,6 @@ var i=0;
 console.log(i);
 
 document.getElementById("pageimg").src = images[0];
-
 
 
 function gamesiteload(){
