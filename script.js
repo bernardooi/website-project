@@ -41,15 +41,11 @@ var i=0;
 
 console.log(i);
 
-document.getElementById("pageimg").src = images[0];
+function gamesiteload(i){
+document.getElementById("gpimg").src = images[i];
+}
 
 
-function gamesiteload(){
-    document.getElementById("pageimg").src = images[i];
-    document.getElementById("pagetitle").style.visibility='visible';
-    document.getElementById("pagescore").style.visibility='visible';
-    document.getElementById("pagesynopsis").style.visibility='visible';
-    }
 
 
 var BildGalleri = ["frame_0_delay-0.1s.gif", "frame_1_delay-0.1s.gif", "frame_2_delay-0.1s.gif", "frame_3_delay-0.1s.gif", "frame_4_delay-0.1s.gif", "frame_5_delay-0.1s.gif"];
