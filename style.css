@@ -8,7 +8,7 @@
 #subbody{
     background-color: red;
     width: 70vw;
-    height: 200vh;
+    height: 200vw;
     float: left;
 }
 
@@ -49,8 +49,16 @@ header{
     text-align: center;
 }
 
+.navbtnpara{
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 2vw;
+}
+
 .navbtn:hover{
     background-color: lightseagreen;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 /* Slideshow */
@@ -138,11 +146,60 @@ footer{
     padding: 7.5vw 0 0 27.5vw;
 }
 
-#footerText{
-    text-align: center;
+#foottext{
     font-size: 1vw;
 }
 
+
+
+
+
+/* Game Site */
+
+#gpimg, #gptitle, #gpinfo, #gpscore, #gpsynopsis{
+    float: left;
+}
+
+#gpdiv{
+    background-color: aqua;
+    width: 70vw;
+    height: 30vw;
+}
+
+#gpimg{
+    width: 20vw;
+    height: 30vw;
+}
+
+#gpscore{
+    border: 0.5vw solid black;
+    background-color: brown;
+    width: 10vw;
+    height: 10vw;
+}
+
+#gpscorepara{
+    color: black;
+    font-size: 5vw;
+    margin-top: 1.25vw;
+    text-align: center;
+}
+
+#gpinfo{
+    background-color: chartreuse;
+    width: 40vw;
+    height: 5vw;
+}
+
+#gptitle{
+    background-color: blueviolet;
+    width: 40vw;
+    height: 5vw;
+}
+
+#gpsynopsis{
+
+}
 
 
 
@@ -384,37 +441,10 @@ Game previews
 @media screen {
     
 }
-#pageimg{
-width: 30%;
-height: 100%;
-float: left;
-}
-#pagetitle{
-width: 70%;
-height: 20%;
-background-color: orange;
-float:left;
-}
-#pagescore{
-    width: 10%;
-    height: 20%;
-    background-color: green;
-    float:left;
-}
-#pagesynopsis{
-    width:60%;
-    height: 20%;
-    background-color: purple;
-    float:left;
-}
-#reviewdiv{
-    width: 70%;
-    height: 65vh;
-    background-color: red;
-    float:left;
-    margin-top: 0.5%;
-    margin-left:0.5%;
-}
+
+
+
+
 #maininfo
 {
 padding:5%;
