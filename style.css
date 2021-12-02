@@ -38,6 +38,10 @@ header{
     height: 5vw;
 }
 
+#ccglogo:hover{
+    cursor: pointer;
+}
+
 .navbtn{
     background-color: #FFBF00;
     width: 10vw;
