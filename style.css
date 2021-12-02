@@ -8,7 +8,6 @@
 #subbody{
     background-color: red;
     width: 70vw;
-    height: 200vw;
     float: left;
 }
 
@@ -17,7 +16,6 @@
 .reklam{
     background-color: lightgray;
     width: 14.4vw;
-    height: 230vh;
     float: left;
 }
 
@@ -64,7 +62,7 @@ header{
 /* Slideshow */
 
 #featured{
-    background-color: purple;
+    background-color: rgb(39, 39, 39);
     width: 70vw;
     height: 30vw;
 }
@@ -150,7 +148,19 @@ footer{
     font-size: 1vw;
 }
 
+/* About us */
 
+#about{
+    background-color: whitesmoke;
+    width: 70vw;
+    height: 25vw;
+}
+
+#aboutpara{
+    border: black solid 0.25vw;
+    padding: 3vw;
+    font-size: 1.5vw;
+}
 
 
 
@@ -172,7 +182,7 @@ footer{
 }
 
 #gpscore{
-    border: 0.5vw solid black;
+    border: 0.25vw solid black;
     background-color: brown;
     width: 10vw;
     height: 10vw;
@@ -186,19 +196,28 @@ footer{
 }
 
 #gpinfo{
+    border: 0.25vw solid black;
     background-color: chartreuse;
     width: 40vw;
     height: 5vw;
 }
 
 #gptitle{
+    border: 0.25vw solid black;
     background-color: blueviolet;
     width: 40vw;
     height: 5vw;
 }
 
-#gpsynopsis{
+.gptext{
+    font-size: 2.5vw;
+}
 
+#gpsynopsis{    
+    width: 50vw;
+    height: 20vw;
+    border: 0.25vw solid black;
+    font-size: 1vw;
 }
 
 
