@@ -211,6 +211,7 @@ footer{
 
 .gptext{
     font-size: 2.5vw;
+    float: left;
 }
 
 #gpsynopsis{    
