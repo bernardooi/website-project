@@ -226,10 +226,14 @@ footer{
 }
 
 #revcontainer{
-    background-color: blue;
+    background-color: navy;
     width: 70vw;
     height: 100vw;
 
+}
+
+.rev, .avatar, .usernamediv, .ratingdiv, .reviewdiv{
+    float: left;
 }
 
 .rev{
@@ -237,11 +241,43 @@ footer{
     margin: 5vw 0 0 5vw;
     width: 27.5vw;
     height: 15vw;
-    float: left;
+}
+
+.avatar{
+    background-color: chocolate;
+    width: 5vw;
+    height: 5vw;
+}
+
+.usernamediv{
+    background-color: brown;
+    width: 17.5vw;
+    height: 5vw;
+}
+
+.username{
 
 }
 
+.ratingdiv{
+    background-color: blueviolet;
+    width: 5vw;
+    height: 5vw;
+}
 
+.rating{
+
+}
+
+.reviewdiv{
+    background-color: darkcyan;
+    width: 27.5vw;
+    height: 10vw;
+}
+
+.userreview{
+
+}
 
 
 
