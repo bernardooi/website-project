@@ -225,6 +225,25 @@ footer{
     font-size: 1vw;
 }
 
+#revcontainer{
+    background-color: blue;
+    width: 70vw;
+    height: 100vw;
+
+}
+
+.rev{
+    background-color: goldenrod;
+    margin: 5vw 0 0 5vw;
+    width: 27.5vw;
+    height: 15vw;
+    float: left;
+
+}
+
+
+
+
 
 
 
