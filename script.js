@@ -71,17 +71,17 @@ var developer = [
 
 //Slideshow
 
-var i=0;
-
-console.log(i);
-
-function gamesiteload(i)
+let i = 0;
+function gamesiteload(imageIndex)
 {
+    var imageIndex = images[i];
+    console.log(imageIndex);
 
-    document.getElementById("gpimg").src = images[i];
-
+    let value = $('gpimg').attr('src').value(imageIndex);
+    value = i;
+    console.log(i);
+    return;
 }
-
-    //document.getElementById("featuredimg")[0].src = BildGalleri[i];
+//document.getElementById("featuredimg")[0].src = BildGalleri[i];
 
 
