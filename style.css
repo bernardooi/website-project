@@ -248,12 +248,12 @@ footer{
 }
 
 .gpsynopsistext{
-    padding: 5vw;
+    padding: 3vw;
 }
 
-
-
-
+.point{
+    cursor: pointer;
+}
 
 #revcontainer{
     background-color: navy;

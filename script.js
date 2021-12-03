@@ -5,8 +5,6 @@ $(window).on("load",function(){
 });
 
 
-
-
 //Array game page system
 
 var images = [
