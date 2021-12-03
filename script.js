@@ -82,10 +82,6 @@ function gamesiteload(i)
 
 }
 
-
-
-
-
     //document.getElementById("featuredimg")[0].src = BildGalleri[i];
 
-}
+
