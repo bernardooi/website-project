@@ -170,43 +170,54 @@ footer{
 
 /* Game Site */
 
-#gpimg, #gptitle, #gpinfo, #gpscore, #gpsynopsis{
+.gpimg, .gptitle, .gpinfo, .gpscore, .gpsynopsis{
     float: left;
 }
 
-#gpdiv{
+.gpdiv{
     background-color: aqua;
     width: 70vw;
     height: 30vw;
 }
 
-#gpimg{
+.gpimg{
     width: 20vw;
     height: 30vw;
 }
 
-#gpscore{
+.gpscore{
     border: 0.25vw solid black;
-    background-color: brown;
     width: 10vw;
     height: 10vw;
 }
 
-#gpscorepara{
+.gpgood{
+    background-color: green;
+}
+
+.gpmid{
+    background-color: yellow;
+}
+
+.gpbad{
+    background-color: red;
+}
+
+.gpscorepara{
     color: black;
     font-size: 5vw;
     margin-top: 1.25vw;
     text-align: center;
 }
 
-#gpinfo{
+.gpinfo{
     border: 0.25vw solid black;
     background-color: chartreuse;
     width: 40vw;
     height: 5vw;
 }
 
-#gptitle{
+.gptitle{
     border: 0.25vw solid black;
     background-color: blueviolet;
     width: 40vw;
@@ -219,18 +230,17 @@ footer{
     float: left;
 }
 
-#gpsynopsis{    
+.gpsynopsis{    
+    background-color: honeydew;
+    border: 0.25vw solid black;
     width: 50vw;
     height: 20vw;
-    border: 0.25vw solid black;
     font-size: 1vw;
 }
 
-#gpsynopsistext{
+.gpsynopsistext{
     padding: 5vw;
 }
-
-
 
 
 #revcontainer{
@@ -248,44 +258,47 @@ footer{
     background-color: goldenrod;
     margin: 5vw 0 0 5vw;
     width: 27.5vw;
-    height: 15vw;
+    height: 17.5vw;
 }
 
 .avatar{
-    background-color: chocolate;
+    border: 0.25vw black solid;
+    background-color: black;
     width: 5vw;
     height: 5vw;
 }
 
 .usernamediv{
-    background-color: brown;
+    border: 0.25vw black solid;
+    background-color: grey;
     width: 17.5vw;
     height: 5vw;
 }
 
-.username{
-
+.username, .rating{
+    color: black;
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 2vw;
 }
 
 .ratingdiv{
-    background-color: blueviolet;
+    border: 0.25vw black solid;
+    background-color: green;
     width: 5vw;
     height: 5vw;
-}
-
-.rating{
-
-
-}
+}   
 
 .reviewdiv{
+    border: 0.25vw black solid;
     background-color: darkcyan;
     width: 27.5vw;
-    height: 10vw;
+    height: 12.5vw;
 }
 
 .userreview{
-
+    padding: 2vw;
+    font-size: 1vw;
 }
 
 
