@@ -22,7 +22,7 @@
     <div id="subbody">
         <header>
             <img id="ccglogo" src="Images/ccglogo.png" alt="ccglogo" onclick="window.open('index.html')">
-            <div class="navbtn" onclick="window.open('gamesite.html')"> <p class="navbtnpara"> Games </p> </div>
+            <div class="navbtn" onclick="window.open('gamesite.html')"> <p class="navbtnpara"> Random </p> </div>
             <div class="navbtn" onclick="window.open('aboutus.html')"> <p class="navbtnpara"> About </p> </div>
             <div class="navbtn" onclick="window.open('index.html')"> <p class="navbtnpara"> Index </p> </div>
         </header>
@@ -63,32 +63,51 @@
         
         <div id="gamecon">
             <div class="game">
-                <img class="gameimg" id="minecraftimg" src="Images/Minecraft_cover.png" alt="Minecraft" onclick="window.open('gamesite.html'); gamesiteload(0)">
-                <div class="gamescore"> <p class="gamepara"> 10 </p></div>
+                <img class="gameimg" id="minecraftimg" src="Images/Minecraft_cover.png" alt="Minecraft" onclick="window.open('minecraft.html')">
+                <div class="gamescore" id="gpgood"> <p class="scorepara"> 10 </p></div>
                 <div class="gamename"> <p class="gamepara">Minecraft</p> </div>
-                <div class="gamesynopsis"> <p class="synopsispara"> Minecraft is about mining and crafting. </p> </div>
+                <div class="gamesynopsis"> <p class="synopsispara"> Minecraft is a game filled with creativity. As you explore a cubical world you mine, craft, build and fight to survive. </p> </div>
             </div>
 
             <div class="game">
-                <img class="gameimg" src="Images/sekiro.png" alt="Sekiro:Shadows Die Twice" onclick="window.open('gamesite.html'); gamesiteload(1)">
-                <div class="gamescore"> <p class="gamepara"> 9 </p> </div>    
-                <div class="gamename"> <p class="gamepara">Sekiro</p> </div>
+                <img class="gameimg" src="Images/sekiro.png" alt="Sekiro:Shadows Die Twice" onclick="window.open('sekiro.html')">
+                <div class="gamescore" id="gpgood"> <p class="scorepara"> 9 </p> </div>    
+                <div class="gamename"> <p class="gamepara">Sekiro: Shadows Die Twice</p> </div>
                 <div class="gamesynopsis"> <p class="synopsispara"> Sekiro is a open world game where you navigate through castles and valleys to end up in a battle versus the final boss.</p> </div>
             </div>
 
             <div class="game">
-                <img class="gameimg" src="Images/league.jpg" alt="Leagoe of legends" onclick="window.open('gamesite.html')">
-                <div class="gamescore"> <p class="gamepara"> 10 </p> </div>    
-                <div class="gamename"> <p class="gamepara">LoL</p> </div>
+                <img class="gameimg" src="Images/league.jpg" alt="Leagoe of legends" onclick="window.open('league.html')">
+                <div class="gamescore" id="gpgood"> <p class="scorepara"> 10 </p> </div>    
+                <div class="gamename"> <p class="gamepara">League of Legends</p> </div>
                 <div class="gamesynopsis"> <p class="synopsispara"> League of Legends is a moba teambased game where you can pay different types of champions and clash against the enemy team. </p> </div>
             </div>
+
             <div class="game">
-                <img class="gameimg" src="Images/smite.jpg" alt="Smite" onclick="window.open('gamesite.html')">
-                <div class="gamescore"> <p class="gamepara"></p> </div>    
+                <img class="gameimg" src="Images/smite.jpg" alt="Smite" onclick="window.open('smite.html')">
+                <div class="gamescore" id="gpmid"><p class="scorepara"> 5 </p></div>    
                 <div class="gamename"> <p class="gamepara">Smite</p> </div>
-                <div class="gamesynopsis"> <p class="synopsispara">Basically league but third person</p> </div>
+                <div class="gamesynopsis"> <p class="synopsispara">Basically League of Legends but third person</p> </div>
             </div>
+
+            <div class="game">
+                <img class="gameimg" src="Images/smash.jpg" alt="Smash" onclick="window.open('smash.html')">
+                <div class="gamescore" id="gpgood"> <p class="scorepara"></p> </div>    
+                <div class="gamename"> <p class="gamepara">Super Smash Bros Ultimate</p> </div>
+                <div class="gamesynopsis"> <p class="synopsispara"> Super Smash Bros Ultimate is a fighting/party game filled with some of gaming's most recognizable characters and franchises fighting eachother. </p> </div>
+            </div>
+
+            <div class="game">
+                <img class="gameimg" src="Images/ET.jpg" alt="ET" onclick="window.open('ET.html')">
+                <div class="gamescore"  id="gpmid"> <p class="scorepara"> 5 </p> </div>    
+                <div class="gamename"> <p class="gamepara">E.T. The Extra-Terrestrial</p> </div>
+                <div class="gamesynopsis"> <p class="synopsispara"> A true classic from the 80's often concidered one of the worst games of all time. </p> </div>
+            </div>
+
         </div>
+
+
+
 
         <footer>
             <div id="footcenter">
@@ -115,128 +134,6 @@
 
 
 
-<!--
-<header>
-    <a href="index.html"><img src="Images/ccglogo.png" class="logo" alt="logo"></a>
-    <div id="navcon">
-        <div class="navbtn">Create Review</div>
-        <div class="navbtn">Random Review</div>
-        <a class="navbtn" href="aboutus.html">About us</a>
-    </div>
-</header>
-
-<a href=""><img src="Images/crackmanads1.png" class="adleft"></a>
-
-
-
-<a href=""><img src="Images/Crack-man 3 ad.png" class="adright"></a>
-
-
-<div id="slideshow">
-    <div class="featbtn" id="leftbtn"></div>
-    <div id="featured">
-        <img id="featuredimg" src="Images/frame_0_delay-0.1s.gif" alt="frog">
-        <p id="featuredtext"></p>
-    </div>
-    <div class="featbtn" id="rightbtn"></div>
-</div>
-
-
-<div id="gamebar">Game Reviews</div>
-
-
-<div id="reviewcontainer">
-            <div class="preview">  
-        <img class="preimg" id="minecraftimg" src="Images/Minecraft_cover.png" alt="Minecraft" onclick="window.open('gamesite.html')">
-                <div class="prescore">10</div>
-                    <div class="prename"><p class="pretitle">Minecraft</p></div>
-                    <div class="presynopsis">Minecraft is about mining and crafting.</div>
-                </div>
-
-            <div class="preview">
-                <img class="preimg" src="Images/sekiro.png" alt="Sekiro:Shadows Die Twice" onclick="window.open('gamesite.html')" onclick="gamesiteload()">
-                <div class="prescore">9</div>    
-                <div class="prename"><p class="pretitle">Sekiro</p></div>
-                    <div class="presynopsis"> Sekiro is a open world game where
-                    you navigate through castles and valleys to end up in a battle versus the final boss.
-                    </div>
-                </div>
-        
-            <div class="preview">
-                <img class="preimg" src="Images/smite.jpg" alt="Smite">
-                <div class="prescore">8.5</div>
-                    <div class="prename"><p class="pretitle">Smite</p></div>
-                    <div class="presynopsis">Smite is the ultimate battleground of gods. Play as the Greek God of war Ares or play as 
-                    Loki the Nordic god of mischief.
-                    </div>
-                </div>
-
-                <div class="preview">
-                    <img class="preimg" src="Images/dssouls.jpg" alt="Dark Souls">
-                    <div class="prescore">9.5</div>
-                        <div class="prename"><p class="pretitle">Dark Souls</p></div>
-                        <div class="presynopsis">Dark Souls is a fantasy game set in a explorable open world. Fight bosses and 
-                            retrieve hidden items to progress in the story.</div>
-                </div>
-
-                    <div class="preview">
-                        <img class="preimg" src="Images/starwars.jpg" alt="Star wars Jedi Fallen Order">
-                        <div class="prescore">9.5</div>
-                            <div class="prename"><p class="pretitle">Jedi Fallen Order</p></div>
-                            <div class="presynopsis">Play as Cal Kestis, a young Jedi Padawan who never achieved the rank of Jedi Knight 
-                                before Order 66 took place.
-                            </div>
-                    </div>
-
-                        <div class="preview">
-                            <img class="preimg" src="Images/batman.jpg" alt="Batman Arkham Knight">
-                            <div class="prescore">10</div>
-                                <div class="prename"><p class="pretitle">Arkham Knight</p></div>
-                                <div class="presynopsis">
-                                Play as Batman as he tries to deal with a threat on a level which Gotham has never found itself in before.
-                                 </div>
-                        </div>
-
-                        <div class="preview">
-                            <img class="preimg" src="Images/league.jpg" alt="League">
-                            <div class="prescore">0</div>
-                            <div class="prename"><p class="pretitle">Lol</p></div>
-                            <div class="presynopsis">League of legends, what a trash game, honestly!</div>
-                        </div>
-                            <div class="preview">
-                                <img class="preimg" src="Images/age.webp" alt="Age of Empires">
-                                <div class="prescore">8</div>
-                                <div class="prename"><p class="pretitle">Aoe IV</p></div>
-                                <div class="presynopsis">Age of Empires is a strategy game where you build up your cities and destroy your foes.</div>
-                        </div>
-
-                        <div class="preview">
-                            <img class="preimg" src="Images/eu4.jfif" alt="eu4">
-                                <div class="prescore">9.5</div>
-                                    <div class="prename"><p class="pretitle">Eu IV</p></div>
-                                    <div class="presynopsis">This is a high strategy game where you develop your lands and take over new ones while trying to colonize nations. </div>
-                        </div>
-    </div>  
-</div>
-
-
-<footer id="kenjifooter">
-    <div id="mediarow" class="center">
-        <a href="https://www.instagram.com/crackmancorporations/"><img class="mediaicons" src="Images/instagram-logo-black-and-white-png-3-300x300.png" alt="Instagram"></a>
-        <a href="https://www.youtube.com/channel/UCMDcAkW1fWFJ2hAqzV_ywiA"><img class="mediaicons" src="Images/youtube logo.png" alt="Youtube"></a>
-        <a href="https://twitter.com/CrackmanM"><img class="mediaicons" src="Images/twitter-icon-black-background-8.jpg" alt="Twitter"></a>
-    </div>
-    <div id="footertext"><p>2021 Crackman Games Corporations </p></div>
-</footer>
-
-
-<div class="loader-wrapper">
-    <span class="loader"><span class="loader-inner"></span></span>
-</div>
-<div>
-
-</div>
--->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

@@ -4,6 +4,9 @@ $(window).on("load",function(){
     $(".loader-wrapper").fadeOut("slow");
 });
 
+
+
+
 //Array game page system
 
 var save = 2;

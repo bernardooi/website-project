@@ -82,7 +82,7 @@ header{
 #gamecon{
     background-color: navy;
     width: 70vw;
-    height: 55vw;
+    height: 65vw;
 }
 
 .game, .gameimg, .gamescore, .gamename, .gamesynopsis{
@@ -101,6 +101,10 @@ header{
     height: 15vw;
 }
 
+.gameimg:hover{
+    cursor: pointer;
+}
+
 .gamescore{
     background-color: brown;
     width: 5vw;
@@ -114,9 +118,14 @@ header{
 }
 
 .gamepara{
-    font-size: 2vw;
-    margin-top: 1vw;
+    font-size: 1.5vw;
     text-align: center;
+}
+
+.scorepara{
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 1vw;
 }
 
 .gamesynopsis{
@@ -191,15 +200,15 @@ footer{
     height: 10vw;
 }
 
-.gpgood{
+#gpgood{
     background-color: green;
 }
 
-.gpmid{
+#gpmid{
     background-color: yellow;
 }
 
-.gpbad{
+#gpbad{
     background-color: red;
 }
 
@@ -212,14 +221,14 @@ footer{
 
 .gpinfo{
     border: 0.25vw solid black;
-    background-color:seashell;
+    background-color:lightyellow;
     width: 40vw;
     height: 5vw;
 }
 
 .gptitle{
     border: 0.25vw solid black;
-    background-color: blueviolet;
+    background-color:lightpink;
     width: 40vw;
     height: 5vw;
 }
@@ -243,10 +252,13 @@ footer{
 }
 
 
+
+
+
 #revcontainer{
     background-color: navy;
     width: 70vw;
-    height: 100vw;
+    height: 76vw;
 
 }
 
@@ -270,7 +282,7 @@ footer{
 
 .usernamediv{
     border: 0.25vw black solid;
-    background-color: grey;
+    background-color: lightyellow;
     width: 17.5vw;
     height: 5vw;
 }
@@ -284,14 +296,13 @@ footer{
 
 .ratingdiv{
     border: 0.25vw black solid;
-    background-color: green;
     width: 5vw;
     height: 5vw;
 }   
 
 .reviewdiv{
     border: 0.25vw black solid;
-    background-color: darkcyan;
+    background-color: #FFBF00;
     width: 27.5vw;
     height: 12.5vw;
 }
