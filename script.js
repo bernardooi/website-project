@@ -45,6 +45,17 @@ function gamesiteload(i){
 document.getElementById("gpimg").src = images[i];
 
 }
+
+
+
+    get : function(){
+        return this.i;        
+    }
+
+
+
+
+
     //document.getElementById("featuredimg")[0].src = BildGalleri[i];
 
 
