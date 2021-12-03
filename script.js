@@ -6,9 +6,6 @@ $(window).on("load",function(){
 
 //Array game page system
 
-var save = 2;
-console.log(save);
-
 var images = [
     "Images/Minecraft_cover.png",
     "Images/sekiro.png",
@@ -71,17 +68,29 @@ var developer = [
 
 //Slideshow
 
-let i = 0;
-function gamesiteload(imageIndex)
+var bild;
+function gamesiteload(i)
 {
-    var imageIndex = images[i];
-    console.log(imageIndex);
-
-    let value = $('gpimg').attr('src').value(imageIndex);
-    value = i;
     console.log(i);
+    bild=images[i];
+    console.log(bild);
+    document.getElementById("imggp").src=bild;
+    document.getElementById("textgps").innerHTML=names[i];
+    document.getElementsByClassName("gpscorepara").innerHTML=score[i];
+    document.getElementsByClassName("gprelease").innerHTML=year[i];
+    document.getElementsByClassName("gpstudio").innerHTML=developer[i];
+    //document.getElementsByClassName("gpsynopsistext").innerHTML;
+
+
     return;
 }
+
+
+
+
+
+
+
 //document.getElementById("featuredimg")[0].src = BildGalleri[i];
 
 
