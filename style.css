@@ -6,7 +6,6 @@
 
 
 #subbody{
-    background-color: red;
     width: 70vw;
     float: left;
 }
@@ -58,7 +57,7 @@ header{
 }
 
 .navbtn:hover{
-    background-color: lightseagreen;
+    background-color: #c59400;
     font-weight: bolder;
     cursor: pointer;
 }
